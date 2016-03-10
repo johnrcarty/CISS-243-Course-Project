@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B6337DA61C91F715005698D0 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 		B65F6BE81C8B5F490002F4DA /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65F6BEB1C8B5F490002F4DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B65F6BF21C8B5F680002F4DA /* CD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CD.cpp; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 				B65F6BF61C8B5F680002F4DA /* Media.h */,
 				B683AAAC1C8BD63100527F24 /* DVD.cpp */,
 				B683AAAD1C8BD63100527F24 /* DVD.h */,
+				B6337DA61C91F715005698D0 /* Notes.txt */,
 			);
 			path = Project;
 			sourceTree = "<group>";
