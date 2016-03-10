@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B65F6BEC1C8B5F490002F4DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65F6BEB1C8B5F490002F4DA /* main.cpp */; };
+		B65F6BF71C8B5F680002F4DA /* CD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65F6BF21C8B5F680002F4DA /* CD.cpp */; };
+		B65F6BF81C8B5F680002F4DA /* Media.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B65F6BF51C8B5F680002F4DA /* Media.cpp */; };
+		B683AAAE1C8BD63100527F24 /* DVD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B683AAAC1C8BD63100527F24 /* DVD.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		B65F6BE81C8B5F490002F4DA /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65F6BEB1C8B5F490002F4DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B65F6BF21C8B5F680002F4DA /* CD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CD.cpp; sourceTree = "<group>"; };
+		B65F6BF31C8B5F680002F4DA /* CD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD.h; sourceTree = "<group>"; };
+		B65F6BF41C8B5F680002F4DA /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		B65F6BF51C8B5F680002F4DA /* Media.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Media.cpp; sourceTree = "<group>"; };
+		B65F6BF61C8B5F680002F4DA /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		B683AAAC1C8BD63100527F24 /* DVD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DVD.cpp; sourceTree = "<group>"; };
+		B683AAAD1C8BD63100527F24 /* DVD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				B65F6BEB1C8B5F490002F4DA /* main.cpp */,
+				B65F6BF21C8B5F680002F4DA /* CD.cpp */,
+				B65F6BF31C8B5F680002F4DA /* CD.h */,
+				B65F6BF41C8B5F680002F4DA /* List.h */,
+				B65F6BF51C8B5F680002F4DA /* Media.cpp */,
+				B65F6BF61C8B5F680002F4DA /* Media.h */,
+				B683AAAC1C8BD63100527F24 /* DVD.cpp */,
+				B683AAAD1C8BD63100527F24 /* DVD.h */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -118,6 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65F6BF71C8B5F680002F4DA /* CD.cpp in Sources */,
+				B65F6BF81C8B5F680002F4DA /* Media.cpp in Sources */,
+				B683AAAE1C8BD63100527F24 /* DVD.cpp in Sources */,
 				B65F6BEC1C8B5F490002F4DA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +257,7 @@
 				B65F6BF11C8B5F490002F4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
