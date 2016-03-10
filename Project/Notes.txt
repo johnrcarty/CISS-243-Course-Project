@@ -12,4 +12,10 @@ Feedback Date
 Mar 6, 2016 5:51 PM
 Dropbox Feedback
 
-Avoid the use of the alternatives for || and &&. Those are not always supported by the compilers because they are not required to. The update ask which wouldyou like to update but does not tell the user what to enter, I enter a number and it tells me adding a CD but then never adds it.  Should not prompt the user to return to the main menu when that is an option in the menu, just show the menu. I ended up exiting the program and did not know I was doing it. Added a second CD and the songs did not appear. User interface is very confusing, too easy to exit without knowing it.
+Avoid the use of the alternatives for || and &&. Those are not always supported by the compilers
+because they are not required to. The update ask which wouldyou like to update but does not tell
+the user what to enter, I enter a number and it tells me adding a CD but then never adds it.
+Should not prompt the user to return to the main menu when that is an option in the menu,
+just show the menu. I ended up exiting the program and did not know I was doing it. Added a
+second CD and the songs did not appear. User interface is very confusing, too easy to exit without
+knowing it.
